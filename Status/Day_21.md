@@ -182,7 +182,11 @@ li = [12, 24, 35, 24, 88, 120, 155, 88, 120, 155]
 ans = list(removeDuplicate(li))
 print(ans)
 ```
+** One Liner- **
 
+l = [12,24,35,24,88,120,155,88,120,155]
+newl = sorted(list(set(l)))
+print(newl)
 ---
 
 # Question 89
