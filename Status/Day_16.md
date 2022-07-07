@@ -324,6 +324,17 @@ for i in range(0, n+1, 2):
     print(i)
 ```
 
+**OR**
+
+def eves(x):
+    for i in range(0,x):
+        if i % 2 == 0:
+            yield i
+
+elim = int(input("Till which number you want even numbers -> "))
+evens = [i for i in eves(elim)]
+print(evens)
+
 ---
 
 # Question 64
